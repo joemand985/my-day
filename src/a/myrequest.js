@@ -5,7 +5,7 @@ class MyRequest extends Component{
 	constructor(props){
 		super(props);
 		this.state = {
-			a: 'bla',
+			a: 'blahblah',
 			location: ''
 		}
     this.update = this.update.bind(this)
@@ -35,9 +35,6 @@ update(){
   })
   .then(function(response){
     console.log(response)
-  // this.show()
-    //this.setState({a: 'lalalab'})
-    //return response;
 })
 })
 }
